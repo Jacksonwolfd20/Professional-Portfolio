@@ -34,7 +34,9 @@ header nav{
     float: right;
 }
 
-a {
+
+
+header nav ul li a{
     text-decoration: none;
     padding-top: 15px;
     margin-right: 20px;
@@ -42,7 +44,6 @@ a {
     font-size: 20px;
     list-style-type: none;
 }
-
 
 header nav ul li {
     display: inline-block;
@@ -107,12 +108,26 @@ text-decoration: none;
     font-size: 48px;
 
 }
+#notfooter div ul li a{
+    text-decoration: none;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+}
 #secondarypr{
     width: 45%;
     display: inline-block;
     margin: 10px;
-    float: center;
+    
 }
+
+#secondarypr{
+    display: inline-flex;
+    margin: 10px;
+}
+
 #secondary{
     margin-top: 50px;
 }
